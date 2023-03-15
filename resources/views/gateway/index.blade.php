@@ -56,7 +56,7 @@
                     <div class="menu-wrap">
                         <nav class="menu-nav">
                             <div class="logo">
-                                <a href="index.html"><img src="{{APP_LOGO}}" alt="Logo"></a>
+{{--                                <a href="index.html"><img src="{{APP_LOGO}}" alt="Logo"></a>--}}
                             </div>
                             <div class="navbar-wrap main-menu d-none d-lg-flex">
                                 <ul class="navigation">
