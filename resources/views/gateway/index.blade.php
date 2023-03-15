@@ -52,7 +52,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
+{{--                    <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>--}}
                     <div class="menu-wrap">
                         <nav class="menu-nav">
                             <div class="logo">
@@ -72,18 +72,18 @@
                     </div>
 
                     <!-- Mobile Menu  -->
-                    <div class="mobile-menu">
-                        <nav class="menu-box">
-                            <div class="close-btn"><i class="fas fa-times"></i></div>
-                            <div class="nav-logo">
-                                <a href="index.html"><img src="{{asset('xolio')}}/assets/img/logo/logo.png" alt="Logo"></a>
-                            </div>
-                            <div class="menu-outer">
-                                <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
-                            </div>
-                        </nav>
-                    </div>
-                    <div class="menu-backdrop"></div>
+{{--                    <div class="mobile-menu">--}}
+{{--                        <nav class="menu-box">--}}
+{{--                            <div class="close-btn"><i class="fas fa-times"></i></div>--}}
+{{--                            <div class="nav-logo">--}}
+{{--                                <a href="index.html"><img src="{{asset('xolio')}}/assets/img/logo/logo.png" alt="Logo"></a>--}}
+{{--                            </div>--}}
+{{--                            <div class="menu-outer">--}}
+{{--                                <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->--}}
+{{--                            </div>--}}
+{{--                        </nav>--}}
+{{--                    </div>--}}
+{{--                    <div class="menu-backdrop"></div>--}}
                     <!-- End Mobile Menu -->
                     <form id="form-logout" method="post" action="/logout">@csrf
 
